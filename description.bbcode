@@ -7,7 +7,7 @@ Automatically pairs unmarried nobles (and optionally other estate types) for mar
 
 [h2]Fixes in this version[/h2]
 [list]
-[*]Updated [b]supported_game_version[/b] to [b]1.1.*[/b] — eliminates the launcher incompatibility warning in 1.1.x
+[*]Updated [b]supported_game_version[/b] to [b]1.1.*[/b], eliminating the launcher incompatibility warning in 1.1.x
 [*]Fixed [b]AI auto-marry[/b]: the on_actions for AI countries were defined but never wired into [i]monthly_country_pulse[/i], so the feature never fired. Now fixed.
 [*]Added missing [b]hint localization keys[/b] required by the situation system (caused log spam in 1.1.x)
 [*]Fixed a minor [b]localization typo[/b] (missing closing quote)
@@ -15,21 +15,26 @@ Automatically pairs unmarried nobles (and optionally other estate types) for mar
 
 [h2]Features[/h2]
 [list]
-[*]Automatically marries unmarried nobles (ages 18–25) each month
+[*]Automatically marries unmarried nobles (ages 18-25) each month
 [*]Three [b]eligibility modes[/b]: Unrestricted, Selective, Dynastic Preservation
 [*]Optional auto-marriage for [b]Burghers, Clergy, Peasants, Dhimmi, Tribes, Cossacks[/b] estates
 [*]Royal marriage reminder for crown estate characters eligible for royal marriage
 [*][b]Population control[/b]: optionally remove surplus courtiers above a configurable limit
 [*][b]AI auto-marry[/b] support (disabled by default, enable in config)
 [*]Full [b]in-game configuration panel[/b] in the Situations screen
-[*]Works on [b]existing saves[/b] — the situation activates within one game month
+[*]Works on [b]existing saves[/b] (the situation activates within one game month)
 [*]Localized in: English, French, Korean, Russian, Simplified Chinese, Turkish
 [/list]
 
 [h2]Compatibility[/h2]
-Pure script mod — no base game files are overwritten. Compatible with most other mods. The only potential conflict is if another mod also appends to [b]monthly_country_pulse[/b] in on_action with overlapping keys.
+Pure script mod with no base game files overwritten. Compatible with most other mods. The only potential conflict is if another mod also appends to [b]monthly_country_pulse[/b] in on_action with overlapping keys.
+
+Pairs well with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3681583449]Marry a Local Noble - Continued[/url]. That mod lets you marry your characters to a randomly generated local noble for 25 ducats when no suitable match is available in your court.
 
 Requires EU5 patch [b]1.1.x[/b].
 
+[h2]Source & Contributions[/h2]
+Source code is available on [url=https://github.com/JustinRudisal/nobles-auto-marry]GitHub[/url]. Pull requests and bug reports welcome.
+
 [h2]Credits[/h2]
-Original mod by [b]Fart Shartley[/b]. This version adds 1.1.x compatibility and bug fixes.
+All credit for the concept and original implementation goes to [b]Fart Shartley[/b]. This version only adds 1.1.x compatibility and bug fixes. If the original mod is ever updated, use that instead.
