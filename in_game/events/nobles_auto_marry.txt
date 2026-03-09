@@ -7875,6 +7875,21 @@ noble_auto_marry.63 = { # config main menu - for game start, and i guess if you 
 			id = noble_auto_marry.70
 		}
 	}
+	option = { # toggle royal marriage reminders
+		name = noble_auto_marry.63.i
+		if = {
+			limit = {
+				has_variable = hide_royal_marriage_events
+			}
+			remove_variable = hide_royal_marriage_events
+		}
+		else = {
+			set_variable = hide_royal_marriage_events
+		}
+		trigger_event_silently = {
+			id = noble_auto_marry.63
+		}
+	}
 	option = { # close menu
 		name = noble_auto_marry.63.h
 	}
