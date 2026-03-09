@@ -1,0 +1,35 @@
+[h1]Nobles Auto Marry - Continued (1.1 Fix)[/h1]
+
+A fix and continuation of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606305941]Nobles Auto Marry[/url] by Fart Shartley, updated to work with [b]Europa Universalis V patch 1.1.x[/b].
+
+[h2]What it does[/h2]
+Automatically pairs unmarried nobles (and optionally other estate types) for marriage each month, keeping your court populated without any manual effort. Configure eligibility rules, population limits, and notification preferences through an in-game configuration panel accessible from the Situations screen.
+
+[h2]Fixes in this version[/h2]
+[list]
+[*]Updated [b]supported_game_version[/b] to [b]1.1.*[/b] — eliminates the launcher incompatibility warning in 1.1.x
+[*]Fixed [b]AI auto-marry[/b]: the on_actions for AI countries were defined but never wired into [i]monthly_country_pulse[/i], so the feature never fired. Now fixed.
+[*]Added missing [b]hint localization keys[/b] required by the situation system (caused log spam in 1.1.x)
+[*]Fixed a minor [b]localization typo[/b] (missing closing quote)
+[/list]
+
+[h2]Features[/h2]
+[list]
+[*]Automatically marries unmarried nobles (ages 18–25) each month
+[*]Three [b]eligibility modes[/b]: Unrestricted, Selective, Dynastic Preservation
+[*]Optional auto-marriage for [b]Burghers, Clergy, Peasants, Dhimmi, Tribes, Cossacks[/b] estates
+[*]Royal marriage reminder for crown estate characters eligible for royal marriage
+[*][b]Population control[/b]: optionally remove surplus courtiers above a configurable limit
+[*][b]AI auto-marry[/b] support (disabled by default, enable in config)
+[*]Full [b]in-game configuration panel[/b] in the Situations screen
+[*]Works on [b]existing saves[/b] — the situation activates within one game month
+[*]Localized in: English, French, Korean, Russian, Simplified Chinese, Turkish
+[/list]
+
+[h2]Compatibility[/h2]
+Pure script mod — no base game files are overwritten. Compatible with most other mods. The only potential conflict is if another mod also appends to [b]monthly_country_pulse[/b] in on_action with overlapping keys.
+
+Requires EU5 patch [b]1.1.x[/b].
+
+[h2]Credits[/h2]
+Original mod by [b]Fart Shartley[/b]. This version adds 1.1.x compatibility and bug fixes.

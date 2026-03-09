@@ -1,0 +1,261 @@
+monthly_country_pulse  = {
+	on_actions = {
+		noble_auto_marry_on_action
+		noble_auto_marry_on_action_crown_estate
+		noble_auto_marry_on_action_burghers_estate
+		noble_auto_marry_on_action_clergy_estate
+		noble_auto_marry_on_action_peasants_estate
+		noble_auto_marry_on_action_dhimmi_estate
+		noble_auto_marry_on_action_tribes_estate
+		noble_auto_marry_on_action_cossacks_estate
+		noble_auto_marry_on_action_pop_control
+		noble_auto_marry_for_ai_on_action
+		non_noble_auto_marry_for_ai_on_action
+	}
+}
+
+on_game_start  = {
+	on_actions = {
+		initiate_auto_marry
+	}
+}
+
+initiate_auto_marry = {
+	effect = {
+		activate_situation = situation:noble_auto_marry_config
+	}
+}
+noble_auto_marry_on_action = {
+	trigger = {
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.1
+		noble_auto_marry.2
+	}
+}
+noble_auto_marry_for_ai_on_action = {
+	trigger = {
+		has_global_variable = noble_auto_marry_enable_for_ai
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit_for_ai
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit_for_ai
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit_for_ai
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.73
+	}
+}
+
+non_noble_auto_marry_for_ai_on_action = {
+	trigger = {
+		has_global_variable = noble_auto_marry_enable_for_ai
+		has_global_variable = non_noble_auto_marry_enable_for_ai
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit_for_ai
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit_for_ai
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit_for_ai
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.74
+	}
+}
+
+
+noble_auto_marry_on_action_crown_estate = {
+	events = {
+		noble_auto_marry.57
+	}
+}
+
+noble_auto_marry_on_action_burghers_estate = {
+	trigger = {
+		has_variable = nobles_auto_marry_burgher_marriages
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.75
+		noble_auto_marry.76
+	}
+}
+noble_auto_marry_on_action_clergy_estate = {
+	trigger = {
+		has_variable = nobles_auto_marry_clergy_marriages
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.77
+		noble_auto_marry.78
+	}
+}
+noble_auto_marry_on_action_peasants_estate = {
+	trigger = {
+		has_variable = nobles_auto_marry_peasant_marriages
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.79
+		noble_auto_marry.80
+	}
+}
+noble_auto_marry_on_action_dhimmi_estate = {
+	trigger = {
+		has_variable = nobles_auto_marry_dhimmi_marriages
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.81
+		noble_auto_marry.82
+	}
+}
+noble_auto_marry_on_action_tribes_estate = {
+	trigger = {
+		has_variable = nobles_auto_marry_tribes_marriages
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.83
+		noble_auto_marry.84
+	}
+}
+noble_auto_marry_on_action_cossacks_estate = {
+	trigger = {
+		has_variable = nobles_auto_marry_cossack_marriages
+		OR = {
+			AND = {
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count < var:noble_auto_marry_pop_limit
+				}
+			}
+			NOT = {
+				has_variable = noble_auto_marry_pop_limit
+			}
+		}
+	}
+	events = {
+		noble_auto_marry.85
+		noble_auto_marry.86
+	}
+}
+noble_auto_marry_on_action_pop_control = {
+	trigger = {
+		OR = {
+			AND = {
+				is_ai = no
+				has_variable = noble_auto_marry_pop_limit
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count > var:noble_auto_marry_pop_limit
+				}
+			}
+			AND = {
+				is_ai = yes
+				has_global_variable = noble_auto_marry_pop_limit_for_ai
+				any_character = {
+					NOT = { is_eligible_heir_baseline = root }
+					is_courtier = yes
+					count > var:noble_auto_marry_pop_limit
+				}
+			}
+		}
+	}
+	first_valid = {
+		noble_auto_marry.60
+		noble_auto_marry.61
+		noble_auto_marry.62
+	}
+}
