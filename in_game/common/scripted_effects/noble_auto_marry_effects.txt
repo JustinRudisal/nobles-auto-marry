@@ -1,4 +1,4 @@
-noble_marriage_immediate_effect = {
+﻿noble_marriage_immediate_effect = {
 	if = {
 		limit = {
 			has_variable = nobles_auto_marry_selective_marriage

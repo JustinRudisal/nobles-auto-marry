@@ -1,4 +1,4 @@
-get_nobles_auto_marry_eligibility_settings = {
+﻿get_nobles_auto_marry_eligibility_settings = {
 	type = country
 	
 	text = {

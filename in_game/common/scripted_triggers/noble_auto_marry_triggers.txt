@@ -1,4 +1,4 @@
-# We can scope everything through the men here to save some time, and allow for a bit more flexiblity with the matches.
+﻿# We can scope everything through the men here to save some time, and allow for a bit more flexiblity with the matches.
 noble_valid_for_auto_marry_unrestricted = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	any_character = {
