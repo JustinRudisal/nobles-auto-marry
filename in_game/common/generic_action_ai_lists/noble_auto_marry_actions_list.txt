@@ -15,5 +15,6 @@ noble_auto_marry_config_list = {
 		noble_auto_marry_pop_limit_for_ai_action
 		noble_auto_marry_non_noble_auto_marry_for_ai
 		noble_auto_marry_disable_config_menu
+		noble_auto_marry_toggle_royal_reminder
 	}
 }

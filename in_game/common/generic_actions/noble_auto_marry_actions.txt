@@ -72,6 +72,46 @@ noble_auto_marry_message_settings = {
 	}
 }
 
+noble_auto_marry_toggle_royal_reminder = {
+	type = situation
+
+	ai_tick = daily
+	ai_tick_frequency = 120
+	automation_tick = daily
+	automation_tick_frequency = 7
+
+	potential = {
+		scope:actor ?= {
+			is_ai = no
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = {data = name}
+		visible = {
+			situation:noble_auto_marry_config = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		scope:actor ?= {
+			if = {
+				limit = {
+					has_variable = hide_royal_marriage_events
+				}
+				remove_variable = hide_royal_marriage_events
+			}
+			else = {
+				set_variable = hide_royal_marriage_events
+			}
+		}
+	}
+}
+
 noble_auto_marry_set_pop_limit = {
 	type = situation
 

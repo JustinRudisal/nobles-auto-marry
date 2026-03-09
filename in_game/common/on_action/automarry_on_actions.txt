@@ -93,6 +93,9 @@ non_noble_auto_marry_for_ai_on_action = {
 
 
 noble_auto_marry_on_action_crown_estate = {
+	trigger = {
+		NOT = { has_variable = hide_royal_marriage_events }
+	}
 	events = {
 		noble_auto_marry.57
 	}

@@ -151,6 +151,22 @@ get_noble_auto_marry_message_settings = {
 	}
 }
 
+get_noble_auto_marry_royal_reminder_settings = {
+	type = country
+	text = {
+		trigger = {
+			has_variable = hide_royal_marriage_events
+		}
+		localization_key = noble_auto_marry_royal_reminder_hidden
+	}
+	text = {
+		trigger = {
+			NOT = { has_variable = hide_royal_marriage_events }
+		}
+		localization_key = noble_auto_marry_royal_reminder_show
+	}
+}
+
 get_noble_auto_marry_ai_toggle = {
 	type = country
 	text = {

@@ -12,13 +12,14 @@ Automatically pairs unmarried nobles (and optionally other estate types) for mar
 - Fixed AI auto-marry on_actions (`noble_auto_marry_for_ai_on_action`, `non_noble_auto_marry_for_ai_on_action`) that were defined but never connected to `monthly_country_pulse` — the AI auto-marry feature now actually fires
 - Added missing `hint_noble_auto_marry` localization keys required by the situation system
 - Fixed a missing closing quote typo in `noble_auto_marry.1.t` localization
+- Fixed royal marriage reminders (event 57) ignoring the "hide notifications" setting; added a new independent `hide_royal_marriage_events` toggle so players can suppress royal reminders separately
 
 ## Features (inherited from original)
 
 - Automatically marries unmarried nobles aged 18–25 each month
 - Three eligibility modes: Unrestricted, Selective (few married relatives), Dynastic Preservation (dynasty-based filter)
 - Optional marriages for Burghers, Clergy, Peasants, Dhimmi, Tribes, Cossacks estates
-- Royal marriage reminder for crown estate characters eligible for royal marriage
+- Royal marriage reminder for crown estate characters eligible for royal marriage (independently toggleable)
 - Population control: optionally kill surplus courtiers above a configurable limit
 - AI auto-marry support (disabled by default)
 - Full in-game configuration panel via the Situations screen
