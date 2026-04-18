@@ -5,12 +5,14 @@
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
+				noble_auto_marry_culture_check = yes
 				is_married = no
 				is_female = no
 				OR = {
-					has_estate = estate_type:nobles_estate 
+					has_estate = estate_type:nobles_estate
 					AND = {
-						has_estate = estate_type:crown_estate 
+						has_estate = estate_type:crown_estate
 						is_eligible_for_royal_marriage = no
 					}
 				}
@@ -33,12 +35,14 @@
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
+				noble_auto_marry_culture_check = yes
 				is_married = no
 				is_female = no
 				OR = {
-					has_estate = estate_type:nobles_estate 
+					has_estate = estate_type:nobles_estate
 					AND = {
-						has_estate = estate_type:crown_estate 
+						has_estate = estate_type:crown_estate
 						is_eligible_for_royal_marriage = no
 					}
 				}
@@ -60,12 +64,14 @@
 	else = {
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
+				noble_auto_marry_culture_check = yes
 				is_married = no
 				is_female = no
 				OR = {
-					has_estate = estate_type:nobles_estate 
+					has_estate = estate_type:nobles_estate
 					AND = {
-						has_estate = estate_type:crown_estate 
+						has_estate = estate_type:crown_estate
 						is_eligible_for_royal_marriage = no
 					}
 				}
@@ -77,15 +83,17 @@
 	}
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = yes
 			NOT = {
 				is_close_relative = scope:target_male
-			}		
+			}
 			OR = {
-				has_estate = estate_type:nobles_estate 
+				has_estate = estate_type:nobles_estate
 				AND = {
-					has_estate = estate_type:crown_estate 
+					has_estate = estate_type:crown_estate
 					is_eligible_for_royal_marriage = no
 				}
 			}
@@ -100,9 +108,11 @@
 burgher_marriage_immediate_effect = {
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
-			has_estate = estate_type:burghers_estate 
+			has_estate = estate_type:burghers_estate
 			age_in_years > 18
 			age_in_years < 35
 			any_close_relative = {
@@ -174,6 +184,7 @@ clergy_marriage_immediate_effect = {
 	random_character = {
 		limit = {
 			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
 			has_estate = estate_type:clergy_estate  
@@ -253,9 +264,11 @@ clergy_marriage_immediate_effect = {
 peasant_marriage_immediate_effect = {
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
-			has_estate = estate_type:peasants_estate  
+			has_estate = estate_type:peasants_estate
 			age_in_years > 18
 			age_in_years < 35
 			any_close_relative = {
@@ -332,6 +345,7 @@ dhimmi_marriage_immediate_effect = {
 	random_character = {
 		limit = {
 			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
 			has_estate = estate_type:dhimmi_estate  
@@ -410,9 +424,11 @@ dhimmi_marriage_immediate_effect = {
 tribes_marriage_immediate_effect = {
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
-			has_estate = estate_type:tribes_estate  
+			has_estate = estate_type:tribes_estate
 			age_in_years > 18
 			age_in_years < 35
 			any_close_relative = {
@@ -488,9 +504,11 @@ tribes_marriage_immediate_effect = {
 cossack_marriage_immediate_effect = {
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
-			has_estate = estate_type:cossacks_estate  
+			has_estate = estate_type:cossacks_estate
 			age_in_years > 18
 			age_in_years < 35
 			any_close_relative = {
@@ -556,12 +574,14 @@ cossack_marriage_immediate_effect = {
 noble_marriage_immediate_effect_for_ai = {
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
 			OR = {
-				has_estate = estate_type:nobles_estate 
+				has_estate = estate_type:nobles_estate
 				AND = {
-					has_estate = estate_type:crown_estate 
+					has_estate = estate_type:crown_estate
 					is_eligible_for_royal_marriage = no
 				}
 			}
@@ -606,12 +626,14 @@ noble_marriage_immediate_effect_for_ai = {
 non_noble_marriage_immediate_effect_for_ai = {
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
+			noble_auto_marry_culture_check = yes
 			is_married = no
 			is_female = no
 			NOT = {
 				OR = {
-					has_estate = estate_type:nobles_estate 
-					has_estate = estate_type:crown_estate 
+					has_estate = estate_type:nobles_estate
+					has_estate = estate_type:crown_estate
 				}
 			}
 			age_in_years > 18

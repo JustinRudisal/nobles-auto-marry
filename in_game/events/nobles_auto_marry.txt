@@ -7854,6 +7854,12 @@ noble_auto_marry.63 = { # config main menu - for game start, and i guess if you 
 			id = noble_auto_marry.66
 		}
 	}
+	option = { # culture restriction settings
+		name = noble_auto_marry.63.j
+		trigger_event_silently = {
+			id = noble_auto_marry.89
+		}
+	}
 	option = { # disable all auto marriages
 		name = noble_auto_marry.63.f
 		if = {
@@ -9081,6 +9087,112 @@ noble_auto_marry.87 = { # auto marry for AI settings window - duplicate for situ
 		trigger_event_silently = {
 			id = noble_auto_marry.63
 		}
+	}
+}
+
+noble_auto_marry.89 = { # culture restriction settings
+	type = country_event
+	title = noble_auto_marry.89.t
+	desc = noble_auto_marry.89.d
+	option = { # no restriction (default)
+		name = noble_auto_marry.89.a
+		custom_tooltip = { text = culture_unrestricted.tt }
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_same_culture
+			}
+			remove_variable = nobles_auto_marry_same_culture
+		}
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_accepted_culture
+			}
+			remove_variable = nobles_auto_marry_accepted_culture
+		}
+		trigger_event_silently = {
+			id = noble_auto_marry.63
+		}
+	}
+	option = { # primary, accepted, and tolerated cultures only
+		name = noble_auto_marry.89.b
+		custom_tooltip = { text = culture_accepted.tt }
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_same_culture
+			}
+			remove_variable = nobles_auto_marry_same_culture
+		}
+		set_variable = nobles_auto_marry_accepted_culture
+		trigger_event_silently = {
+			id = noble_auto_marry.63
+		}
+	}
+	option = { # same culture only
+		name = noble_auto_marry.89.c
+		custom_tooltip = { text = culture_same_only.tt }
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_accepted_culture
+			}
+			remove_variable = nobles_auto_marry_accepted_culture
+		}
+		set_variable = nobles_auto_marry_same_culture
+		trigger_event_silently = {
+			id = noble_auto_marry.63
+		}
+	}
+	option = { # close menu without changes
+		name = noble_auto_marry.89.e
+		trigger_event_silently = {
+			id = noble_auto_marry.63
+		}
+	}
+}
+
+noble_auto_marry.90 = { # culture restriction settings - duplicate for situation window
+	type = country_event
+	title = noble_auto_marry.89.t
+	desc = noble_auto_marry.89.d
+	option = { # no restriction (default)
+		name = noble_auto_marry.89.a
+		custom_tooltip = { text = culture_unrestricted.tt }
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_same_culture
+			}
+			remove_variable = nobles_auto_marry_same_culture
+		}
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_accepted_culture
+			}
+			remove_variable = nobles_auto_marry_accepted_culture
+		}
+	}
+	option = { # primary, accepted, and tolerated cultures only
+		name = noble_auto_marry.89.b
+		custom_tooltip = { text = culture_accepted.tt }
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_same_culture
+			}
+			remove_variable = nobles_auto_marry_same_culture
+		}
+		set_variable = nobles_auto_marry_accepted_culture
+	}
+	option = { # same culture only
+		name = noble_auto_marry.89.c
+		custom_tooltip = { text = culture_same_only.tt }
+		if = {
+			limit = {
+				has_variable = nobles_auto_marry_accepted_culture
+			}
+			remove_variable = nobles_auto_marry_accepted_culture
+		}
+		set_variable = nobles_auto_marry_same_culture
+	}
+	option = { # close menu without changes
+		name = noble_auto_marry.89.e
 	}
 }
 

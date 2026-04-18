@@ -1,23 +1,23 @@
-[h1]Nobles Auto Marry - Continued (1.1 Fix)[/h1]
+[h1]Nobles Auto Marry - Continued[/h1]
 
 A fix and continuation of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606305941]Nobles Auto Marry[/url] by Fart Shartley, updated to work with [b]Europa Universalis V patch 1.1.x[/b].
 
 [h2]What it does[/h2]
-Automatically pairs unmarried nobles (and optionally other estate types) for marriage each month, keeping your court populated without any manual effort. Configure eligibility rules, population limits, and notification preferences through an in-game configuration panel accessible from the Situations screen.
+Automatically pairs unmarried nobles (and optionally other estate types) for marriage each month, keeping your court populated without any manual effort. Configure eligibility rules, population limits, culture restrictions, and notification preferences through an in-game configuration panel accessible from the Situations screen.
 
-[h2]Fixes in this version[/h2]
+[h2]What's new in 1.2[/h2]
 [list]
-[*]Updated [b]supported_game_version[/b] to [b]1.1.*[/b], eliminating the launcher incompatibility warning in 1.1.x
-[*]Fixed [b]AI auto-marry[/b]: the on_actions for AI countries were defined but never wired into [i]monthly_country_pulse[/i], so the feature never fired. Now fixed.
-[*]Added missing [b]hint localization keys[/b] required by the situation system (caused log spam in 1.1.x)
-[*]Fixed a minor [b]localization typo[/b] (missing closing quote)
-[*]Fixed [b]royal marriage reminders[/b] ignoring the "hide notifications" setting, and added a separate toggle to control them independently
+[*]Fixed [b]crash bug[/b] in AI pop control (script error referencing wrong variable scope)
+[*]Fixed [b]AI population limit[/b] being silently ignored
+[*]Added [b]character_can_marry_trigger[/b] checks for patch 1.1 compatibility
+[*]New [b]Culture Restriction Settings[/b]: restrict auto-marriages to primary culture only, primary/accepted/tolerated cultures, or no restriction
 [/list]
 
 [h2]Features[/h2]
 [list]
 [*]Automatically marries unmarried nobles (ages 18-25) each month
 [*]Three [b]eligibility modes[/b]: Unrestricted, Selective, Dynastic Preservation
+[*][b]Culture restrictions[/b]: No restriction, Primary/Accepted/Tolerated only, or Primary culture only
 [*]Optional auto-marriage for [b]Burghers, Clergy, Peasants, Dhimmi, Tribes, Cossacks[/b] estates
 [*]Royal marriage reminder for crown estate characters eligible for royal marriage (independently toggleable from regular notifications)
 [*][b]Population control[/b]: optionally remove surplus courtiers above a configurable limit

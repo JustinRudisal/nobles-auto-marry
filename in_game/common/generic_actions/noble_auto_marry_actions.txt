@@ -214,6 +214,39 @@ noble_auto_marry_non_noble_marriages = {
 	}
 }
 
+noble_auto_marry_culture_settings = {
+	type = situation
+	ai_tick = daily
+	ai_tick_frequency = 120
+	automation_tick = daily
+	automation_tick_frequency = 7
+
+	potential = {
+		scope:actor ?= {
+			is_ai = no
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:noble_auto_marry_config = this
+			situation_is_active = yes
+		}
+	}
+
+	effect = {
+		scope:actor ?={
+			trigger_event_silently = {
+				id = noble_auto_marry.90
+			}
+		}
+	}
+}
+
 noble_auto_marry_disable_auto_marry = {
 	type = situation
 	ai_tick = daily

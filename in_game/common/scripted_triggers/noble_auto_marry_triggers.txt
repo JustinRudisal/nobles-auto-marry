@@ -307,3 +307,21 @@ non_noble_valid_for_auto_marry_for_ai = {
 		age_in_years < 25
 	}
 }
+
+# Culture restriction check - used in character limit blocks
+# If same_culture variable is set, character must match country's primary culture
+# If accepted_culture variable is set, character must be primary, accepted, or tolerated
+noble_auto_marry_culture_check = {
+	trigger_if = {
+		limit = { owner = { has_variable = nobles_auto_marry_same_culture } }
+		culture = owner.culture
+	}
+	trigger_if = {
+		limit = { owner = { has_variable = nobles_auto_marry_accepted_culture } }
+		OR = {
+			culture = owner.culture
+			culture = { is_accepted_in = owner }
+			culture = { is_tolerated_in = owner }
+		}
+	}
+}

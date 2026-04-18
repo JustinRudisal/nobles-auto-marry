@@ -213,6 +213,33 @@ get_noble_auto_marry_ai_non_noble_toggle = {
 	}
 }
 
+get_noble_auto_marry_culture_settings = {
+	type = country
+	text = {
+		trigger = {
+			has_variable = nobles_auto_marry_same_culture
+		}
+		localization_key = culture_same_noble_auto_marry
+	}
+	text = {
+		trigger = {
+			has_variable = nobles_auto_marry_accepted_culture
+		}
+		localization_key = culture_accepted_noble_auto_marry
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					has_variable = nobles_auto_marry_same_culture
+					has_variable = nobles_auto_marry_accepted_culture
+				}
+			}
+		}
+		localization_key = culture_unrestricted_noble_auto_marry
+	}
+}
+
 get_noble_auto_marry_ai_toggle_desc = {
 	type = country
 	text = {
