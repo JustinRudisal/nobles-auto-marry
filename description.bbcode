@@ -1,16 +1,15 @@
 [h1]Nobles Auto Marry - Continued[/h1]
 
-A fix and continuation of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606305941]Nobles Auto Marry[/url] by Fart Shartley, updated to work with [b]Europa Universalis V patch 1.1.x[/b].
+A fix and continuation of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3606305941]Nobles Auto Marry[/url] by Fart Shartley, updated to work with [b]Europa Universalis V patch 1.2[/b].
 
 [h2]What it does[/h2]
 Automatically pairs unmarried nobles (and optionally other estate types) for marriage each month, keeping your court populated without any manual effort. Configure eligibility rules, population limits, culture restrictions, and notification preferences through an in-game configuration panel accessible from the Situations screen.
 
-[h2]What's new in 1.2[/h2]
+[h2]What's new in 1.3[/h2]
 [list]
-[*]Fixed [b]crash bug[/b] in AI pop control (script error referencing wrong variable scope)
-[*]Fixed [b]AI population limit[/b] being silently ignored
-[*]Added [b]character_can_marry_trigger[/b] checks for patch 1.1 compatibility
-[*]New [b]Culture Restriction Settings[/b]: restrict auto-marriages to primary culture only, primary/accepted/tolerated cultures, or no restriction
+[*]Updated for EU5 patch [b]1.2[/b]
+[*]Fixed [b]court limit not working[/b]: pop limit now always initialized (default 150) and enforced across all estate marriages
+[*]Fixed [b]heir's wife killed by culling[/b]: crown estate members (ruler's family) are now protected from population control
 [/list]
 
 [h2]Features[/h2]
@@ -32,7 +31,7 @@ Pure script mod with no base game files overwritten. Compatible with most other 
 
 Pairs well with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3681583449]Marry a Local Noble - Continued[/url]. That mod lets you marry your characters to a randomly generated local noble for 25 ducats when no suitable match is available in your court.
 
-Requires EU5 patch [b]1.1.x[/b].
+Requires EU5 patch [b]1.2.x[/b].
 
 [h2]Source & Contributions[/h2]
 Source code is available on [url=https://github.com/JustinRudisal/nobles-auto-marry]GitHub[/url]. Pull requests and bug reports welcome.

@@ -23,17 +23,19 @@ on_game_start  = {
 initiate_auto_marry = {
 	effect = {
 		activate_situation = situation:noble_auto_marry_config
+		if = {
+			limit = { NOT = { has_variable = noble_auto_marry_pop_limit } }
+			set_variable = { name = noble_auto_marry_pop_limit value = 150 }
+		}
 	}
 }
 noble_auto_marry_on_action = {
 	trigger = {
-		trigger_if = {
-			limit = { has_variable = noble_auto_marry_pop_limit }
-			any_character = {
-				NOT = { is_eligible_heir_baseline = root }
-				is_courtier = yes
-				count < var:noble_auto_marry_pop_limit
-			}
+		has_variable = noble_auto_marry_pop_limit
+		any_character = {
+			NOT = { is_eligible_heir_baseline = root }
+			is_courtier = yes
+			count < var:noble_auto_marry_pop_limit
 		}
 	}
 	events = {
@@ -89,13 +91,11 @@ noble_auto_marry_on_action_crown_estate = {
 noble_auto_marry_on_action_burghers_estate = {
 	trigger = {
 		has_variable = nobles_auto_marry_burgher_marriages
-		trigger_if = {
-			limit = { has_variable = noble_auto_marry_pop_limit }
-			any_character = {
-				NOT = { is_eligible_heir_baseline = root }
-				is_courtier = yes
-				count < var:noble_auto_marry_pop_limit
-			}
+		has_variable = noble_auto_marry_pop_limit
+		any_character = {
+			NOT = { is_eligible_heir_baseline = root }
+			is_courtier = yes
+			count < var:noble_auto_marry_pop_limit
 		}
 	}
 	events = {
@@ -106,13 +106,11 @@ noble_auto_marry_on_action_burghers_estate = {
 noble_auto_marry_on_action_clergy_estate = {
 	trigger = {
 		has_variable = nobles_auto_marry_clergy_marriages
-		trigger_if = {
-			limit = { has_variable = noble_auto_marry_pop_limit }
-			any_character = {
-				NOT = { is_eligible_heir_baseline = root }
-				is_courtier = yes
-				count < var:noble_auto_marry_pop_limit
-			}
+		has_variable = noble_auto_marry_pop_limit
+		any_character = {
+			NOT = { is_eligible_heir_baseline = root }
+			is_courtier = yes
+			count < var:noble_auto_marry_pop_limit
 		}
 	}
 	events = {
@@ -123,13 +121,11 @@ noble_auto_marry_on_action_clergy_estate = {
 noble_auto_marry_on_action_peasants_estate = {
 	trigger = {
 		has_variable = nobles_auto_marry_peasant_marriages
-		trigger_if = {
-			limit = { has_variable = noble_auto_marry_pop_limit }
-			any_character = {
-				NOT = { is_eligible_heir_baseline = root }
-				is_courtier = yes
-				count < var:noble_auto_marry_pop_limit
-			}
+		has_variable = noble_auto_marry_pop_limit
+		any_character = {
+			NOT = { is_eligible_heir_baseline = root }
+			is_courtier = yes
+			count < var:noble_auto_marry_pop_limit
 		}
 	}
 	events = {
@@ -140,13 +136,11 @@ noble_auto_marry_on_action_peasants_estate = {
 noble_auto_marry_on_action_dhimmi_estate = {
 	trigger = {
 		has_variable = nobles_auto_marry_dhimmi_marriages
-		trigger_if = {
-			limit = { has_variable = noble_auto_marry_pop_limit }
-			any_character = {
-				NOT = { is_eligible_heir_baseline = root }
-				is_courtier = yes
-				count < var:noble_auto_marry_pop_limit
-			}
+		has_variable = noble_auto_marry_pop_limit
+		any_character = {
+			NOT = { is_eligible_heir_baseline = root }
+			is_courtier = yes
+			count < var:noble_auto_marry_pop_limit
 		}
 	}
 	events = {
@@ -157,13 +151,11 @@ noble_auto_marry_on_action_dhimmi_estate = {
 noble_auto_marry_on_action_tribes_estate = {
 	trigger = {
 		has_variable = nobles_auto_marry_tribes_marriages
-		trigger_if = {
-			limit = { has_variable = noble_auto_marry_pop_limit }
-			any_character = {
-				NOT = { is_eligible_heir_baseline = root }
-				is_courtier = yes
-				count < var:noble_auto_marry_pop_limit
-			}
+		has_variable = noble_auto_marry_pop_limit
+		any_character = {
+			NOT = { is_eligible_heir_baseline = root }
+			is_courtier = yes
+			count < var:noble_auto_marry_pop_limit
 		}
 	}
 	events = {
@@ -174,13 +166,11 @@ noble_auto_marry_on_action_tribes_estate = {
 noble_auto_marry_on_action_cossacks_estate = {
 	trigger = {
 		has_variable = nobles_auto_marry_cossack_marriages
-		trigger_if = {
-			limit = { has_variable = noble_auto_marry_pop_limit }
-			any_character = {
-				NOT = { is_eligible_heir_baseline = root }
-				is_courtier = yes
-				count < var:noble_auto_marry_pop_limit
-			}
+		has_variable = noble_auto_marry_pop_limit
+		any_character = {
+			NOT = { is_eligible_heir_baseline = root }
+			is_courtier = yes
+			count < var:noble_auto_marry_pop_limit
 		}
 	}
 	events = {

@@ -5570,6 +5570,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 			total_abilities < 200
 			is_eligible_for_royal_marriage = no
 			is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			count > 30
 		}
 	}
@@ -5582,6 +5583,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5591,6 +5593,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5600,6 +5603,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5609,6 +5613,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5618,6 +5623,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5627,6 +5633,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5636,6 +5643,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5645,6 +5653,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5654,6 +5663,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5663,6 +5673,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 				total_abilities < 200
 				is_eligible_for_royal_marriage = no
 				is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			}
 			kill_character_silently = this
 		}
@@ -5676,6 +5687,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5685,6 +5697,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5694,6 +5707,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5703,6 +5717,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5712,6 +5727,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5721,6 +5737,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5730,6 +5747,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5739,6 +5757,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5748,6 +5767,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5757,6 +5777,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5766,6 +5787,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5775,6 +5797,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5784,6 +5807,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5793,6 +5817,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5802,6 +5827,7 @@ noble_auto_marry.60 = { # restricive pop control measure that prioritises low-ac
 					total_abilities < 200
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}		
@@ -5826,11 +5852,13 @@ noble_auto_marry.61 = { # more general population control measure
 		any_character = {
 			is_eligible_for_royal_marriage = no
 			is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			count < 200
 		}
 		any_character = {
 			is_eligible_for_royal_marriage = no
 			is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			count > 30
 		}
 	}
@@ -5843,6 +5871,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -5850,6 +5879,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5859,6 +5889,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5869,6 +5900,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -5876,6 +5908,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5885,6 +5918,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5895,6 +5929,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -5902,6 +5937,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5911,6 +5947,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5921,6 +5958,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -5928,6 +5966,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5937,6 +5976,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5947,6 +5987,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -5954,6 +5995,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5963,6 +6005,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5973,6 +6016,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -5980,6 +6024,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5989,6 +6034,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -5999,6 +6045,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6006,6 +6053,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6015,6 +6063,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6025,6 +6074,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6032,6 +6082,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6041,6 +6092,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6051,6 +6103,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6058,6 +6111,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6067,6 +6121,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6077,6 +6132,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6084,6 +6140,7 @@ noble_auto_marry.61 = { # more general population control measure
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6093,6 +6150,7 @@ noble_auto_marry.61 = { # more general population control measure
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6107,6 +6165,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6114,6 +6173,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6123,6 +6183,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6133,6 +6194,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6140,6 +6202,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6149,6 +6212,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6159,6 +6223,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6166,6 +6231,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6175,6 +6241,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6185,6 +6252,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6192,6 +6260,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6201,6 +6270,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6211,6 +6281,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6218,6 +6289,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6227,6 +6299,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6237,6 +6310,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6244,6 +6318,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6253,6 +6328,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6263,6 +6339,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6270,6 +6347,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6279,6 +6357,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6289,6 +6368,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6296,6 +6376,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6305,6 +6386,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6315,6 +6397,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6322,6 +6405,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6331,6 +6415,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6341,6 +6426,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6348,6 +6434,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6357,6 +6444,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6367,6 +6455,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6374,6 +6463,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6383,6 +6473,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6393,6 +6484,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6400,6 +6492,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6409,6 +6502,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6419,6 +6513,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6426,6 +6521,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6435,6 +6531,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6445,6 +6542,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6452,6 +6550,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6461,6 +6560,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6471,6 +6571,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 				}
 				random_character = { # literally just this 25 times.
@@ -6478,6 +6579,7 @@ noble_auto_marry.61 = { # more general population control measure
 						age_in_years > 40
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6487,6 +6589,7 @@ noble_auto_marry.61 = { # more general population control measure
 					limit = {
 						is_eligible_for_royal_marriage = no
 						is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 					}
 					kill_character_silently = this
 				}
@@ -6505,6 +6608,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 		any_character = {
 			is_eligible_for_royal_marriage = no
 			is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 			count > 200
 		}
 	}
@@ -6517,6 +6621,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6524,6 +6629,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6533,6 +6639,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6543,6 +6650,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6550,6 +6658,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6559,6 +6668,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6569,6 +6679,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6576,6 +6687,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6585,6 +6697,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6595,6 +6708,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6602,6 +6716,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6611,6 +6726,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6621,6 +6737,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6628,6 +6745,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6637,6 +6755,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6647,6 +6766,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6654,6 +6774,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6663,6 +6784,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6673,6 +6795,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6680,6 +6803,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6689,6 +6813,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6699,6 +6824,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6706,6 +6832,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6715,6 +6842,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6725,6 +6853,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6732,6 +6861,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6741,6 +6871,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6751,6 +6882,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6758,6 +6890,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6767,6 +6900,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6777,6 +6911,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6784,6 +6919,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6793,6 +6929,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6803,6 +6940,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6810,6 +6948,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6819,6 +6958,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6829,6 +6969,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6836,6 +6977,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6845,6 +6987,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6855,6 +6998,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6862,6 +7006,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6871,6 +7016,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6881,6 +7027,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6888,6 +7035,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6897,6 +7045,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6907,6 +7056,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6914,6 +7064,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6923,6 +7074,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6933,6 +7085,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6940,6 +7093,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6949,6 +7103,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6959,6 +7114,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6966,6 +7122,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6975,6 +7132,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -6985,6 +7143,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -6992,6 +7151,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7001,6 +7161,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7011,6 +7172,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7018,6 +7180,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7027,6 +7190,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7037,6 +7201,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7044,6 +7209,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7053,6 +7219,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7063,6 +7230,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7070,6 +7238,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7079,6 +7248,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7089,6 +7259,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7096,6 +7267,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7105,6 +7277,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7115,6 +7288,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7122,6 +7296,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7131,6 +7306,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7141,6 +7317,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7148,6 +7325,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7157,6 +7335,7 @@ noble_auto_marry.62 = { # more general population control measure - for when you
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7167,6 +7346,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7174,6 +7354,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7183,6 +7364,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7193,6 +7375,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7200,6 +7383,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7209,6 +7393,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7219,6 +7404,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7226,6 +7412,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7235,6 +7422,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7245,6 +7433,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7252,6 +7441,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7261,6 +7451,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7271,6 +7462,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7278,6 +7470,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7287,6 +7480,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7297,6 +7491,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7304,6 +7499,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7313,6 +7509,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7323,6 +7520,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7330,6 +7528,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7339,6 +7538,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7349,6 +7549,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7356,6 +7557,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7365,6 +7567,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7375,6 +7578,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7382,6 +7586,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7391,6 +7596,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7401,6 +7607,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7408,6 +7615,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7417,6 +7625,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7427,6 +7636,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7434,6 +7644,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7443,6 +7654,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7453,6 +7665,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7460,6 +7673,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7469,6 +7683,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7479,6 +7694,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7486,6 +7702,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7495,6 +7712,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7505,6 +7723,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7512,6 +7731,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7521,6 +7741,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7531,6 +7752,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7538,6 +7760,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7547,6 +7770,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7557,6 +7781,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7564,6 +7789,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7573,6 +7799,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7583,6 +7810,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7590,6 +7818,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7599,6 +7828,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7609,6 +7839,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7616,6 +7847,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7625,6 +7857,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7635,6 +7868,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7642,6 +7876,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7651,6 +7886,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7661,6 +7897,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7668,6 +7905,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7677,6 +7915,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7687,6 +7926,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7694,6 +7934,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7703,6 +7944,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7713,6 +7955,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7720,6 +7963,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7729,6 +7973,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7739,6 +7984,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7746,6 +7992,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7755,6 +8002,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7765,6 +8013,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7772,6 +8021,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7781,6 +8031,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7791,6 +8042,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 			}
 			random_character = { # literally just this 25 times.
@@ -7798,6 +8050,7 @@ if = { # prioritise older characters if possible
 					age_in_years > 40
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7807,6 +8060,7 @@ if = { # prioritise older characters if possible
 				limit = {
 					is_eligible_for_royal_marriage = no
 					is_courtier = yes
+				NOT = { has_estate = estate_type:crown_estate }
 				}
 				kill_character_silently = this
 			}
@@ -7905,14 +8159,12 @@ noble_auto_marry.64 = { # population limit settings
 	type = country_event
 	title = noble_auto_marry.64.t
 	desc = noble_auto_marry.64.d
-	
+
 	option = { # unlimited
-		name = noble_auto_marry.64.a 
-		if = {
-			limit = {
-				has_variable = noble_auto_marry_pop_limit
-			}
-			remove_variable = noble_auto_marry_pop_limit
+		name = noble_auto_marry.64.a
+		set_variable = {
+			name = noble_auto_marry_pop_limit
+			value = 9999
 		}
 		trigger_event_silently = {
 			id = noble_auto_marry.63
@@ -8240,17 +8492,12 @@ noble_auto_marry.67 = { # population limit settings - duplicate event for the si
 	type = country_event
 	title = noble_auto_marry.64.t
 	desc = noble_auto_marry.64.d
-	
+
 	option = { # unlimited
-		name = noble_auto_marry.64.a 
-		if = {
-			limit = {
-				has_variable = noble_auto_marry_pop_limit
-			}
-			remove_variable = noble_auto_marry_pop_limit
-		}
-		else = {
-			set_variable = noble_auto_marry_pop_limit
+		name = noble_auto_marry.64.a
+		set_variable = {
+			name = noble_auto_marry_pop_limit
+			value = 9999
 		}
 		trigger_event_silently = {
 			id = noble_auto_marry.63

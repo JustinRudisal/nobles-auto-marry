@@ -17,6 +17,10 @@
 
 	on_start = {
 		scope:actor ?= {
+			if = {
+				limit = { NOT = { has_variable = noble_auto_marry_pop_limit } }
+				set_variable = { name = noble_auto_marry_pop_limit value = 150 }
+			}
 			trigger_event_non_silently = {
 				id = noble_auto_marry.63 # entry config menu
 			}
