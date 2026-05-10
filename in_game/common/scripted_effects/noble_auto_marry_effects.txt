@@ -146,15 +146,16 @@ burgher_marriage_immediate_effect = {
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
 				is_married = no
 				is_female = yes
 				NOT = {
 					is_close_relative = scope:target_male
-				}		
+				}
 				NOT = {
 					OR = {
-						has_estate = estate_type:nobles_estate 
-						has_estate = estate_type:crown_estate 
+						has_estate = estate_type:nobles_estate
+						has_estate = estate_type:crown_estate
 					}
 				}
 				age_in_years > 18
@@ -224,6 +225,7 @@ clergy_marriage_immediate_effect = {
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
 				is_married = no
 				is_female = yes
 				religion = scope:target_male.religion
@@ -304,16 +306,17 @@ peasant_marriage_immediate_effect = {
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
 				is_married = no
 				is_female = yes
 				NOT = {
 					is_close_relative = scope:target_male
-				}		
+				}
 				NOT = {
 					OR = {
-						has_estate = estate_type:nobles_estate 
-						has_estate = estate_type:crown_estate 
-						has_estate = estate_type:burghers_estate 
+						has_estate = estate_type:nobles_estate
+						has_estate = estate_type:crown_estate
+						has_estate = estate_type:burghers_estate
 					}
 				}
 				age_in_years > 18
@@ -385,6 +388,7 @@ dhimmi_marriage_immediate_effect = {
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
 				is_married = no
 				is_female = yes
 				religion = scope:target_male.religion
@@ -464,17 +468,18 @@ tribes_marriage_immediate_effect = {
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
 				is_married = no
 				is_female = yes
 				NOT = {
 					is_close_relative = scope:target_male
-				}		
+				}
 				NOT = {
 					OR = {
-						has_estate = estate_type:nobles_estate 
-						has_estate = estate_type:crown_estate 
-						has_estate = estate_type:burghers_estate 
-						has_estate = estate_type:dhimmi_estate 
+						has_estate = estate_type:nobles_estate
+						has_estate = estate_type:crown_estate
+						has_estate = estate_type:burghers_estate
+						has_estate = estate_type:dhimmi_estate
 					}
 				}
 				age_in_years > 18
@@ -539,17 +544,18 @@ cossack_marriage_immediate_effect = {
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
 				is_married = no
 				is_female = yes
 				NOT = {
 					is_close_relative = scope:target_male
-				}		
+				}
 				NOT = {
-					has_estate = estate_type:crown_estate 
+					has_estate = estate_type:crown_estate
 				}
 				age_in_years > 18
 				age_in_years < 25
-			}		
+			}
 			save_scope_as = target_female
 		}
 	}
@@ -602,15 +608,16 @@ noble_marriage_immediate_effect_for_ai = {
 
 	random_character = {
 		limit = {
+			character_can_marry_trigger = yes
 			is_married = no
 			is_female = yes
 			NOT = {
 				is_close_relative = scope:target_male
-			}		
+			}
 			OR = {
-				has_estate = estate_type:nobles_estate 
+				has_estate = estate_type:nobles_estate
 				AND = {
-					has_estate = estate_type:crown_estate 
+					has_estate = estate_type:crown_estate
 					is_eligible_for_royal_marriage = no
 				}
 			}
@@ -669,15 +676,16 @@ non_noble_marriage_immediate_effect_for_ai = {
 		}
 		random_character = {
 			limit = {
+				character_can_marry_trigger = yes
 				is_married = no
 				is_female = yes
 				NOT = {
 					is_close_relative = scope:target_male
-				}		
+				}
 				NOT = {
 					OR = {
-						has_estate = estate_type:nobles_estate 
-						has_estate = estate_type:crown_estate 
+						has_estate = estate_type:nobles_estate
+						has_estate = estate_type:crown_estate
 					}
 				}
 				age_in_years > 18

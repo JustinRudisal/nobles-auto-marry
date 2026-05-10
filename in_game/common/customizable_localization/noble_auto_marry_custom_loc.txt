@@ -125,6 +125,13 @@ get_noble_auto_marry_pop_limit = {
 	text = {
 		trigger = {
 			has_variable = noble_auto_marry_pop_limit
+			var:noble_auto_marry_pop_limit >= 9999
+		}
+		localization_key = noble_auto_marry_no_pop_limit_text
+	}
+	text = {
+		trigger = {
+			has_variable = noble_auto_marry_pop_limit
 		}
 		localization_key = noble_auto_marry_pop_limit_text
 	}

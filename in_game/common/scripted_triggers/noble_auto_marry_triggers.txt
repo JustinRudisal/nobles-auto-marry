@@ -2,6 +2,7 @@
 noble_valid_for_auto_marry_unrestricted = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		OR = {
@@ -16,6 +17,7 @@ noble_valid_for_auto_marry_unrestricted = {
 		age_in_years < 25
 	}
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = yes
 		OR = {
@@ -34,6 +36,7 @@ noble_valid_for_auto_marry_unrestricted = {
 noble_valid_for_auto_marry_selective = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		OR = {
@@ -55,6 +58,7 @@ noble_valid_for_auto_marry_selective = {
 		}
 	}
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = yes
 		OR = {
@@ -72,6 +76,7 @@ noble_valid_for_auto_marry_selective = {
 noble_valid_for_auto_marry_dynastic_preservation = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		OR = {
@@ -95,6 +100,7 @@ noble_valid_for_auto_marry_dynastic_preservation = {
 		}
 	}
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = yes
 		OR = {
@@ -113,6 +119,7 @@ burgher_valid_for_auto_marry = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	has_variable = nobles_auto_marry_burgher_marriages
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		has_estate = estate_type:burghers_estate
@@ -133,6 +140,7 @@ clergy_valid_for_auto_marry = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	has_variable = nobles_auto_marry_clergy_marriages
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		has_estate = estate_type:clergy_estate
@@ -154,6 +162,7 @@ peasants_valid_for_auto_marry = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	has_variable = nobles_auto_marry_peasant_marriages
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		has_estate = estate_type:peasants_estate
@@ -174,6 +183,7 @@ dhimmi_valid_for_auto_marry = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	has_variable = nobles_auto_marry_dhimmi_marriages
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		has_estate = estate_type:dhimmi_estate
@@ -193,6 +203,7 @@ tribes_valid_for_auto_marry = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	has_variable = nobles_auto_marry_tribes_marriages
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		has_estate = estate_type:tribes_estate
@@ -213,6 +224,7 @@ cossacks_valid_for_auto_marry = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	has_variable = nobles_auto_marry_cossack_marriages
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		has_estate = estate_type:cossacks_estate
@@ -233,6 +245,7 @@ noble_valid_for_auto_marry_dynastic_preservation_for_ai = {
 	NOT = { has_variable = noble_auto_marry_temp_disable }
 	has_global_variable = noble_auto_marry_enable_for_ai
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		OR = {
@@ -256,6 +269,7 @@ noble_valid_for_auto_marry_dynastic_preservation_for_ai = {
 		}
 	}
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = yes
 		OR = {
@@ -274,6 +288,7 @@ non_noble_valid_for_auto_marry_for_ai = {
 	has_global_variable = noble_auto_marry_enable_for_ai
 	has_global_variable = non_noble_auto_marry_enable_for_ai
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = no
 		NOT = {
@@ -294,13 +309,13 @@ non_noble_valid_for_auto_marry_for_ai = {
 		}
 	}
 	any_character = {
+		character_can_marry_trigger = yes
 		is_married = no
 		is_female = yes
-		OR = {
-			has_estate = estate_type:nobles_estate
-			AND = {
+		NOT = {
+			OR = {
+				has_estate = estate_type:nobles_estate
 				has_estate = estate_type:crown_estate
-				is_eligible_for_royal_marriage = no
 			}
 		}
 		age_in_years > 18
