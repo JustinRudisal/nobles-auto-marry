@@ -29,6 +29,7 @@
  noble_auto_marry.64.t: "Court Population Limits"
  noble_auto_marry.64.d: "The court can only support a certain number of courtiers. We can set a policy, communicating to all that the court shall not accomodate everyone, thereby discouraging further additions to the court.\n\n[ROOT.GetCountry.Custom('get_noble_auto_marry_pop_limit')]. Automatic marriages cannot occur when the court is above the population limit."
  noble_auto_marry.64.a: "Declare that all are welcome in the court (no population limit)"
+ noble_auto_marry.64.g: "Set the population limit to 500"
  noble_auto_marry.64.b: "Set the population limit to 200"
  noble_auto_marry.64.c: "Set the population limit to 100"
  noble_auto_marry.64.e: "Set the population limit to 50"

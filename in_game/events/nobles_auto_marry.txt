@@ -5524,11 +5524,12 @@ noble_auto_marry.58 = {
 	type = country_event
 	title = noble_auto_marry.3.t
 	desc = noble_auto_marry.3.d
-	
-	
+
+
 	option = {
 		name = noble_auto_marry.3.a
 		scope:target_suitor ?= { remove_character_modifier = block_marriage }
+		scope:unmarried_royal ?= { remove_character_modifier = block_marriage }
 		scope:unmarried_royal ?= { marry_character = scope:target_suitor }
 		remove_variable = noble_auto_marry_royal_planning_wedding
 	}
@@ -8170,7 +8171,18 @@ noble_auto_marry.64 = { # population limit settings
 			id = noble_auto_marry.63
 		}
 	}
-	
+
+	option = { # limit of 500
+		name = noble_auto_marry.64.g
+		set_variable = {
+			name = noble_auto_marry_pop_limit
+			value = 500
+		}
+		trigger_event_silently = {
+			id = noble_auto_marry.63
+		}
+	}
+
 	option = { # limit of 200
 		name = noble_auto_marry.64.b
 		set_variable = {
@@ -8181,7 +8193,7 @@ noble_auto_marry.64 = { # population limit settings
 			id = noble_auto_marry.63
 		}
 	}
-	
+
 	option = { # limit of 100
 		name = noble_auto_marry.64.c
 		set_variable = {
@@ -8503,7 +8515,15 @@ noble_auto_marry.67 = { # population limit settings - duplicate event for the si
 			id = noble_auto_marry.63
 		}
 	}
-	
+
+	option = { # limit of 500
+		name = noble_auto_marry.64.g
+		set_variable = {
+			name = noble_auto_marry_pop_limit
+			value = 500
+		}
+	}
+
 	option = { # limit of 200
 		name = noble_auto_marry.64.b
 		set_variable = {
@@ -8511,7 +8531,7 @@ noble_auto_marry.67 = { # population limit settings - duplicate event for the si
 			value = 200
 		}
 	}
-	
+
 	option = { # limit of 100
 		name = noble_auto_marry.64.c
 		set_variable = {
