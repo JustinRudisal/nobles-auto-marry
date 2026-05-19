@@ -26,6 +26,7 @@
  noble_auto_marry.64.t: "Saray Nüfus Limitleri"
  noble_auto_marry.64.d: "Saray yalnızca belirli sayıda saray mensubunu barındırabilir. Herkese sarayın herkesi ağırlayamayacağını bildiren bir politika belirleyebilir, böylece saraya yeni eklemelerin önüne geçebiliriz.\n\n[ROOT.GetCountry.Custom('get_noble_auto_marry_pop_limit')]. Saray nüfus limitinin üzerindeyse otomatik evlilikler gerçekleşemez."
  noble_auto_marry.64.a: "Herkesin saraya kabul edildiğini ilan et (nüfus limiti yok)"
+ noble_auto_marry.64.g: "Set the population limit to 500"
  noble_auto_marry.64.b: "Nüfus limitini 200 olarak ayarla"
  noble_auto_marry.64.c: "Nüfus limitini 100 olarak ayarla"
  noble_auto_marry.64.e: "Nüfus limitini 50 olarak ayarla"

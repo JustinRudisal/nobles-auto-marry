@@ -26,6 +26,7 @@
  noble_auto_marry.64.t: "Limite de Population à la cour"
  noble_auto_marry.64.d: "La cour peut supporter seulement un certain nombre de courtisans. Nous pouvons établir une politique, communiquant à toute la cour qu'elle ne pourra pas accueillir tout le monde, décourageant ainsi l'ajout de nouveaux membres à la cour.\n\n[ROOT.GetCountry.Custom('get_noble_auto_marry_pop_limit')]. Les mariages automatiques ne peuvent avoir lieu lorsque la cour dépasse le seuil de population autorisé."
  noble_auto_marry.64.a: "Declare that all are welcome in the court (no population limit)"
+ noble_auto_marry.64.g: "Set the population limit to 500"
  noble_auto_marry.64.b: "Fixer la limite de population à 200"
  noble_auto_marry.64.c: "Fixer la limite de population à 100"
  noble_auto_marry.64.e: "Fixer la limite de population à 50"

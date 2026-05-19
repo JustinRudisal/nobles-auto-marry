@@ -26,6 +26,7 @@
  noble_auto_marry.64.t: "궁정 인구 제한"
  noble_auto_marry.64.d: "궁정이 수용할 수 있는 인원 수에는 한계가 있습니다. 모든 이들을 받아들이지 않는다는 정책을 공표함으로써, 궁정 인구의 무분별한 증가를  억제할 수 있습니다.\n\n[ROOT.GetCountry.Custom('get_noble_auto_marry_pop_limit')]. 궁정 인구가 제한을 초과할 경우 자동 혼인은 발생하지 않습니다."
  noble_auto_marry.64.a: "궁정은 모두를 받아들이겠다. (인구 제한 없음)"
+ noble_auto_marry.64.g: "Set the population limit to 500"
  noble_auto_marry.64.b: "인구 제한을 200으로 설정"
  noble_auto_marry.64.c: "인구 제한을 100으로 설정"
  noble_auto_marry.64.e: "인구 제한을 50으로 설정"
