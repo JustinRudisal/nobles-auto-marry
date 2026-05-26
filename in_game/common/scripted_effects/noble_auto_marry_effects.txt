@@ -102,7 +102,7 @@
 		}
 		save_scope_as = target_female
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 }
 
 burgher_marriage_immediate_effect = {
@@ -179,7 +179,7 @@ burgher_marriage_immediate_effect = {
 			save_scope_as = target_female
 		}
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 }
 clergy_marriage_immediate_effect = {
 	random_character = {
@@ -259,7 +259,7 @@ clergy_marriage_immediate_effect = {
 			save_scope_as = target_female
 		}
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 
 }
 
@@ -341,7 +341,7 @@ peasant_marriage_immediate_effect = {
 			save_scope_as = target_female
 		}
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 
 }
 dhimmi_marriage_immediate_effect = {
@@ -422,7 +422,7 @@ dhimmi_marriage_immediate_effect = {
 			save_scope_as = target_female
 		}
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 
 }
 tribes_marriage_immediate_effect = {
@@ -504,7 +504,7 @@ tribes_marriage_immediate_effect = {
 			save_scope_as = target_female
 		}
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 }
 cossack_marriage_immediate_effect = {
 	random_character = {
@@ -574,7 +574,7 @@ cossack_marriage_immediate_effect = {
 			save_scope_as = target_female
 		}
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 
 }
 noble_marriage_immediate_effect_for_ai = {
@@ -626,7 +626,7 @@ noble_marriage_immediate_effect_for_ai = {
 		}
 		save_scope_as = target_female
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 
 }
 
@@ -709,6 +709,6 @@ non_noble_marriage_immediate_effect_for_ai = {
 			save_scope_as = target_female
 		}
 	}
-	scope:target_male ?= { marry_character = scope:target_female }
+	scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 
 }
