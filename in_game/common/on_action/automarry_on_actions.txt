@@ -1,5 +1,6 @@
 monthly_country_pulse  = {
 	on_actions = {
+		noble_auto_marry_init_pop_limit
 		noble_auto_marry_on_action
 		noble_auto_marry_on_action_crown_estate
 		noble_auto_marry_on_action_burghers_estate
@@ -27,6 +28,14 @@ initiate_auto_marry = {
 			limit = { NOT = { has_variable = noble_auto_marry_pop_limit } }
 			set_variable = { name = noble_auto_marry_pop_limit value = 150 }
 		}
+	}
+}
+noble_auto_marry_init_pop_limit = {
+	trigger = {
+		NOT = { has_variable = noble_auto_marry_pop_limit }
+	}
+	effect = {
+		set_variable = { name = noble_auto_marry_pop_limit value = 150 }
 	}
 }
 noble_auto_marry_on_action = {
