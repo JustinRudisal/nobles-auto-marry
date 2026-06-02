@@ -1303,7 +1303,7 @@ noble_auto_marry.14 = {
 	}
 	option = {
 		name = noble_auto_marry.1.a
-		scope:target_male ?= { marry_character = scope:target_female  }
+		scope:target_female ?= { scope:target_male ?= { marry_character = scope:target_female } }
 		if = {
 			limit = {
 				has_variable = hide_marriage_events
