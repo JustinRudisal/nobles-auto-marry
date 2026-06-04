@@ -92,7 +92,7 @@ noble_valid_for_auto_marry_dynastic_preservation = {
 		this.dynasty = {
 			any_character_in_dynasty = {
 				count < 3
-				is_female = no  # As they won't carry on a dynasty
+				is_female = no
 				age_in_years > 16
 				age_in_years < 50
 				is_married = yes
@@ -261,7 +261,7 @@ noble_valid_for_auto_marry_dynastic_preservation_for_ai = {
 		this.dynasty = {
 			any_character_in_dynasty = {
 				count < 3
-				is_female = no  # As they won't carry on a dynasty
+				is_female = no
 				age_in_years > 16
 				age_in_years < 50
 				is_married = yes

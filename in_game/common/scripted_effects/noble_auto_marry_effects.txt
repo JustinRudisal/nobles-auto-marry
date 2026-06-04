@@ -50,8 +50,11 @@
 				age_in_years < 25
 				this.dynasty = {
 					any_character_in_dynasty = {
+						count >= 3
+					}
+					any_character_in_dynasty = {
 						count < 3
-						is_female = no  # As they won't carry on a dynasty
+						is_female = no
 						age_in_years > 16
 						age_in_years < 50
 						is_married = yes
@@ -59,6 +62,27 @@
 				}
 			}
 			save_scope_as = target_male
+		}
+		if = {
+			limit = { NOT = { exists = scope:target_male } }
+			random_character = {
+				limit = {
+					character_can_marry_trigger = yes
+					noble_auto_marry_culture_check = yes
+					is_married = no
+					is_female = no
+					OR = {
+						has_estate = estate_type:nobles_estate
+						AND = {
+							has_estate = estate_type:crown_estate
+							is_eligible_for_royal_marriage = no
+						}
+					}
+					age_in_years > 18
+					age_in_years < 25
+				}
+				save_scope_as = target_male
+			}
 		}
 	}
 	else = {
@@ -595,8 +619,11 @@ noble_marriage_immediate_effect_for_ai = {
 			age_in_years < 25
 			this.dynasty = {
 				any_character_in_dynasty = {
+					count >= 3
+				}
+				any_character_in_dynasty = {
 					count < 3
-					is_female = no  # As they won't carry on a dynasty
+					is_female = no
 					age_in_years > 16
 					age_in_years < 50
 					is_married = yes
@@ -604,6 +631,27 @@ noble_marriage_immediate_effect_for_ai = {
 			}
 		}
 		save_scope_as = target_male
+	}
+	if = {
+		limit = { NOT = { exists = scope:target_male } }
+		random_character = {
+			limit = {
+				character_can_marry_trigger = yes
+				noble_auto_marry_culture_check = yes
+				is_married = no
+				is_female = no
+				OR = {
+					has_estate = estate_type:nobles_estate
+					AND = {
+						has_estate = estate_type:crown_estate
+						is_eligible_for_royal_marriage = no
+					}
+				}
+				age_in_years > 18
+				age_in_years < 25
+			}
+			save_scope_as = target_male
+		}
 	}
 
 	random_character = {
