@@ -5500,23 +5500,32 @@ noble_auto_marry.57 = {
 				}
 			}
 		}
-		custom_tooltip = { text = unmarried_royal_will_find_suitable_spouse.tt }
-		if = {	
+		if = {
 			limit = {
-				NOT = {
-					has_variable = hide_marriage_events
+				exists = scope:target_suitor
+			}
+			custom_tooltip = { text = unmarried_royal_will_find_suitable_spouse.tt }
+			if = {
+				limit = {
+					NOT = {
+						has_variable = hide_marriage_events
+					}
+				}
+				trigger_event_silently = {
+					id = noble_auto_marry.58
+					months = { 2 4 }
 				}
 			}
-			trigger_event_silently = {
-				id = noble_auto_marry.58
-				months = { 2 4 }
+			else = {
+				trigger_event_silently = {
+					id = noble_auto_marry.59
+					months = { 2 4 }
+				}
 			}
 		}
 		else = {
-			trigger_event_silently = {
-				id = noble_auto_marry.59
-				months = { 2 4 }
-			}
+			scope:unmarried_royal ?= { remove_character_modifier = block_marriage }
+			remove_variable = noble_auto_marry_royal_planning_wedding
 		}
 	}
 }
@@ -5530,7 +5539,7 @@ noble_auto_marry.58 = {
 		name = noble_auto_marry.3.a
 		scope:target_suitor ?= { remove_character_modifier = block_marriage }
 		scope:unmarried_royal ?= { remove_character_modifier = block_marriage }
-		scope:unmarried_royal ?= { marry_character = scope:target_suitor }
+		scope:target_suitor ?= { scope:unmarried_royal ?= { marry_character = scope:target_suitor } }
 		remove_variable = noble_auto_marry_royal_planning_wedding
 	}
 }
@@ -5538,14 +5547,14 @@ noble_auto_marry.59 = {
 	type = country_event
 	title = noble_auto_marry.3.t
 	desc = noble_auto_marry.3.d
-	
-	
+
+
 	hidden = yes
 	option = {
 		name = noble_auto_marry.3.a
 		scope:target_suitor ?= { remove_character_modifier = block_marriage }
 		scope:unmarried_royal ?= { remove_character_modifier = block_marriage }
-		scope:unmarried_royal ?= { marry_character = scope:target_suitor }
+		scope:target_suitor ?= { scope:unmarried_royal ?= { marry_character = scope:target_suitor } }
 		remove_variable = noble_auto_marry_royal_planning_wedding
 	}
 }
